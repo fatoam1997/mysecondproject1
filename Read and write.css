@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+section{
+    overflow: hidden;
+    background: url(shutterstock_294403034.jpg);
+    background-size: cover;
+
+}
+section .leftbox{
+    width: 50%;
+    height:300px;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+section .leftbox .content{
+    color: #fff;
+    background: rgba(0,0,0,.5);
+    padding: 40px;
+    transition: .5s;
+}
+section .leftbox .content:hover{
+background: #e91e63;
+}
+section .leftbox .content h1{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+section .leftbox .content p{
+    margin: 10px 0 0;
+    padding: 0;
+}
+section .events{
+    background: rgba(0,0,0,.5);
+    width: 50%;
+    float: right;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+    position: relative
+}
+/*
+section .events ul{
+    position:absolute;
+    top:0;
+    margin:0;
+    transform: translateY(-50%);
+    padding: 40px;
+    box-sizing: border-box;
+}
+*/
+section .events ul li{
+    list-style: none;
+    background: #fff;
+    box-sizing: border-box;
+    height: 200px;
+    margin: 15px 0;
+}
+section .events ul li .times{
+    position: relative;
+    padding: 20px;
+    background: #262626;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    transition: .5s;
+}
+.custom-btn {
+    background: #607D8B;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.custom-btn:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+section .events ul li .times img {
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    border-radius: 50%;
+}
+section .events ul li:hover .times{
+   background:  #e91e63;
+    
+}
+section .events ul li .times h2{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    color: #fff;
+    font-size: 50px;
+    line-height: 30px;
+}
+section .events ul li .times h2 span{
+    font-size: 30px;   
+}
+section .events ul li .details{
+    padding: 5px;
+    background: #fff;
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    float: left;
+    
+}
+p{
+    color:cyan;
+
+}
+img{
+    float: right;
+    padding: 1px 20px;
+}
+h5{
+    color: aqua;
+}
+.bird{
+    width: 100px;
+    height:100px;
+    float: left;
+}
+.birds{
+    width: 200px;
+    height:150px;
+    float: left;
+    padding: 5px;
+    border:1px;
+    border-radius: 10px;
+}
+
+.co {
+    display: none;
+}
+
+
+
+
+.title{
+/*color: #f2f2f2;*/
+  color:   #003399;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#model {
+    position: fixed;
+    top: 0;
+    left: 0;
+     background: rgba(0, 0, 0, 0.50);
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: none;
+    overflow: auto
+}
+#model .container {
+    background: /*rgb(255, 230, 179);*/rgba(51, 51, 51,1);
+    max-width: 700px;
+    margin: 50px auto 0;
+    
+}
+/*#model .container .head {
+  background: #ffffff;
+    border-bottom: 2px solid #DDD;
+    padding: 5px;  
+}*/
+
+#model .container .body {
+    padding: 10px 5px;
+    overflow: hidden
+}
+
+#model .container .footer {
+    margin-top: 10px;
+    border-top: 2px solid #DDD;
+    padding: 10px 5px;
+}
+
+#model .container .footer .close-model {
+    cursor: pointer;
+    background: #f50;
+    padding: 5px 10px;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+
+
